@@ -1,0 +1,6 @@
+<TestApp:MyViewModel xmlns:WpfApplication1="clr-namespace:WpfApplication1"
+                     xmlns:TestApp="clr-namespace:IctBaden.Presentation.TestApp" LenOfFirstName="30" MyProp="Nunc mauris dignissim nullam amet" Wait="Elementum praesent ante aptent vestibulum">
+	<TestApp:MyViewModel.Kunde>
+		<TestApp:Customer BirthPlace="Cras curabitur" FirstName="Maecenas phasellus consequat nam aliquam" LastName="Convallis duis integer aenean"/>
+	</TestApp:MyViewModel.Kunde>
+</TestApp:MyViewModel>
