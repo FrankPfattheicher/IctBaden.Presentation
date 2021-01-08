@@ -11,7 +11,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IctBaden.Presentation.Test</RootNamespace>
     <AssemblyName>IctBaden.Presentation.Test</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkProfile />
@@ -66,13 +66,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IctBaden.Framework\IctBaden.Framework.46.csproj">
-      <Project>{39135014-36b8-42ee-8450-0ee33d0f8076}</Project>
-      <Name>IctBaden.Framework.46</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IctBaden.Presentation\IctBaden.Presentation.46.csproj">
-      <Project>{1864428F-EE7F-485A-8BBF-47695F42E270}</Project>
-      <Name>IctBaden.Presentation.46</Name>
+    <ProjectReference Include="..\IctBaden.Presentation\IctBaden.Presentation.48.csproj">
+      <Project>{B5D35DEF-F5CE-4DAD-A519-93D4CDFBEDB5}</Project>
+      <Name>IctBaden.Presentation.48</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IctBaden.Presentation.TestApp</RootNamespace>
     <AssemblyName>IctBaden.Presentation.TestApp</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -20,7 +20,7 @@
     <ExpressionBlendVersion>4.0.30422.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -132,17 +132,13 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IctBaden.Framework\IctBaden.Framework.46.csproj">
-      <Project>{39135014-36b8-42ee-8450-0ee33d0f8076}</Project>
-      <Name>IctBaden.Framework.46</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IctBaden.Presentation\IctBaden.Presentation.46.csproj">
-      <Project>{1864428F-EE7F-485A-8BBF-47695F42E270}</Project>
-      <Name>IctBaden.Presentation.46</Name>
-    </ProjectReference>
+    <DesignData Include="SampleData\MyViewModelSampleData.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <DesignData Include="SampleData\MyViewModelSampleData.xaml" />
+    <ProjectReference Include="..\IctBaden.Presentation\IctBaden.Presentation.48.csproj">
+      <Project>{B5D35DEF-F5CE-4DAD-A519-93D4CDFBEDB5}</Project>
+      <Name>IctBaden.Presentation.48</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
